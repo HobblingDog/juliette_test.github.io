@@ -3,7 +3,7 @@
 }
 
 html {
-    scrollbar-width: none;
+    overflow: hidden;
     height:100%;width:100% !important
 }
 
@@ -25,6 +25,8 @@ body {
 }
 
 #BottomText {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     overflow-y: scroll;
     height: 30vh;
     color: #ffffffef;
@@ -33,7 +35,10 @@ body {
 }
 
 #mainContainer {
-    color: #ffffffef;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    color: #ffffff00;
     top: 71%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -69,13 +74,10 @@ body {
         background-size: cover;
         background-attachment:fixed
     }
+    
     #mainContainer {
         color: #ffffffef;
-        /*
-        top: 50%;
-        left: 50%;
-        */
-        position:relative;
+        position:absolute;
         align-items: center;
         justify-content: center;
         display: flex !important;
