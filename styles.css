@@ -2,16 +2,21 @@ html,body {
     height:100%;width:100% } 
 body {
     background-image: url("images/Juliette-stade.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
     /*
     background-position:top;
     background-size: 100vw;
     */
+    /*
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-position: top, center;
+    */
 }
 
 img {
@@ -54,7 +59,7 @@ img {
     border-style: none;
     box-sizing: border-box;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     body {
         background-size: cover;
         background-attachment:fixed
@@ -76,7 +81,10 @@ img {
         height: 125px;
         vertical-align: middle;
         position: relative;
+        border-style: dashed;
     }
+    
+
 }
 #MainText {
     color: #ffffffef;
