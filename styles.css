@@ -5,23 +5,12 @@ body {
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
-    /*
-    background-position:top;
-    background-size: 100vw;
-    */
-    /*
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: top, center;
-    */
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
+#MainText {
+    color: #ffffffef;
+    text-align: center !important;
+    font-family:Helvetica 
 }
 
 #mainDiv {
@@ -43,6 +32,7 @@ img {
     border-style: none;
     box-sizing: border-box;
 }
+
 @media screen and (max-width: 800px) {
     body {
         background-size: cover;
@@ -69,10 +59,6 @@ img {
     }
     
 
-}
-#MainText {
-    color: #ffffffef;
-    text-align: center !important;
 }
 
 h1 {
