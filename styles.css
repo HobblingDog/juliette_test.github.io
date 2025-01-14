@@ -17,11 +17,30 @@ body {
     font-family:Helvetica 
 }
 
+#BottomText {
+    color: #ffffffef;
+    text-align: center !important;
+    font-family:Helvetica 
+}
+
 #mainContainer {
     color: #ffffffef;
-    top: 35%;
+    top: 71%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#topContainer {
+    color: #ffffffef;
+    height: 30vh;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: dashed;
     position: absolute;
     align-items: center;
     justify-content: center;
