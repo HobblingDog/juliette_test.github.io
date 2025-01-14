@@ -1,8 +1,15 @@
-html,body {
+::-webkit-scrollbar{
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
     height:100%;width:100% !important
 }
 
+
 body {
+    height:100%; width:100% !important;
     margin:0;
     padding:0;
     background-image: url("images/Juliette-stade.jpg");
@@ -18,6 +25,8 @@ body {
 }
 
 #BottomText {
+    overflow-y: scroll;
+    height: 30vh;
     color: #ffffffef;
     text-align: center !important;
     font-family:Helvetica 
