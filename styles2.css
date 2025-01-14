@@ -28,13 +28,36 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    border-style: dashed;
 }
 
 .pages img{
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+}
+
+.pages01{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+.pages02{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+.textes{
+    position: absolute;
+    margin: 50vh auto 0;
+    transform: translate(-50%, -50%);
 }
 
 .text01{
