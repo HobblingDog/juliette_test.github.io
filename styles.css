@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
 }
 
 /* HIDE SCROLL BAR inside DIV
@@ -24,6 +25,8 @@
     scroll-snap-type: y mandatory;  /*SCROLL*/
     scroll-behavior: smooth !important;
     overflow: auto;
+    align-items: center;
+    justify-items: center;
 }
 
 .pages{
@@ -31,7 +34,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     scroll-snap-align: start;       /*SCROLL*/
 }
 
@@ -42,19 +45,19 @@
 }
 
 .text01{
+    width: 75vw;
     position: absolute;
     top: 50%;
-    left: 50%;
 }
 
 .text02{
+    width: 75vw;
     position: absolute;
     top: 150%;
-    left: 50%;
 }
 
 .text03{
+    width: 75vw;
     position: absolute;
     top: 250%;
-    left: 50%;
 }
