@@ -22,7 +22,7 @@
     width: 100%;
     height: 100vh;
     scroll-snap-type: y mandatory;  /*SCROLL*/
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     overflow: auto;
 }
 
@@ -50,5 +50,11 @@
 .text02{
     position: absolute;
     top: 150%;
+    left: 50%;
+}
+
+.text03{
+    position: absolute;
+    top: 250%;
     left: 50%;
 }
