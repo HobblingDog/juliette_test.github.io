@@ -1,0 +1,102 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+html {
+    overflow: hidden;
+    height:100%;width:100% !important
+}
+
+
+body {
+    height:100%; width:100% !important;
+    margin:0;
+    padding:0;
+    background-image: url("images/Juliette-stade.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+#MainText {
+    color: #ffffffef;
+    text-align: center !important;
+    font-family:Helvetica 
+}
+
+#BottomText {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    height: 30vh;
+    color: #ffffffef;
+    text-align: center !important;
+    font-family:Helvetica 
+}
+
+#mainContainer {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    color: #ffffff00;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#topContainer {
+    color: #ffffffef;
+    height: 30vh;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: dashed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#logo {
+    height: 35vh;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: cover;
+        background-attachment:fixed
+    }
+    
+    #mainContainer {
+        color: #ffffffef;
+        position:absolute;
+        align-items: center;
+        justify-content: center;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    #logo {
+        height: 125px;
+        vertical-align: middle;
+        position: relative;
+        border-style: dashed; /*CHECK MOBILE */
+    }
+    
+
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
